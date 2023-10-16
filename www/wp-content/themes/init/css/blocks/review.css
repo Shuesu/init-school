@@ -1,0 +1,16 @@
+.review__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.review__info {
+	padding: 9rem 0;
+	max-width: 40rem;
+}
+
+.review__text {
+	display: flex;
+	margin-left: 9rem;
+}
+
+/*# sourceMappingURL=review.css.map */

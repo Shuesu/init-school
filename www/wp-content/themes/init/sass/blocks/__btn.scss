@@ -1,0 +1,29 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 0;
+    font-size: var(--small);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    height: var(--field);
+    padding: 0 calc(var(--field) / 2);
+    gap: 0.8rem;
+    transition: .2s;
+
+    &--small {
+        width: 100%;
+    }
+
+    &--medium {
+        --field: 3.8rem
+    }
+
+    &--outline {
+        transition: .2s;
+    }
+}
+

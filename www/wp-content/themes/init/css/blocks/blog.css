@@ -1,0 +1,27 @@
+.blog__wrapper {
+	margin: 9rem 0;
+}
+
+.blog__title {
+	margin-bottom: 4rem;
+}
+
+.blog__headline {
+	margin-bottom: 4rem;
+}
+
+.blog__link {
+	color: #000;
+}
+
+.blog__button {
+	display: flex;
+}
+
+@media (max-width: 767.98px) {
+	.blog__title {
+		font-size: 2.5rem;
+	}
+}
+
+/*# sourceMappingURL=blog.css.map */

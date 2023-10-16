@@ -1,0 +1,314 @@
+.chat {
+	font-family: "Segoe UI", san-serif;
+	font-size: 1.5rem;
+	min-width: 33rem;
+	margin: 9rem 0;
+	height: 100%;
+	overflow: hidden;
+	width: 50%;
+}
+
+.chat__wrapper {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.chat__item {
+	flex-shrink: 0;
+}
+
+.chat__header {
+	background-color: #fafafa;
+}
+
+.chat__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.chat__time {
+	margin-left: 2rem;
+}
+
+.chat__icons {
+	margin-right: 1rem;
+	display: flex;
+	gap: 0.7rem;
+}
+
+.chat__icon {
+	display: inline-flex;
+	width: 1.5rem;
+}
+
+.chat__bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+.chat__arrow {
+	display: block;
+}
+
+.chat__user {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.chat__avatar {
+	width: 3rem;
+	height: auto;
+}
+
+.chat__name {
+	font-weight: 600;
+	line-height: 1.5rem;
+	font-size: 2rem;
+}
+
+.chat__subtitle {
+	font-size: 1rem;
+	color: #8e8e93;
+	font-weight: 300;
+}
+
+.chat__video {
+	width: 2rem;
+	height: auto;
+	margin-right: 1.7rem;
+}
+
+.chat__phone {
+	width: 1.7rem;
+	height: auto;
+	margin-right: 0.7rem;
+}
+
+.chat__main {
+	background-image: url("/wp-content/themes/init/img/review-bg.png");
+	padding: 10px 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.chat__talktext {
+	padding: 0.5rem;
+	padding-bottom: 0.9rem;
+	text-align: left;
+	line-height: 1.5em;
+	padding-right: 3.5rem;
+}
+
+.chat__text {
+	word-wrap: break-word;
+}
+
+.chat__read {
+	position: absolute;
+	right: 7px;
+	bottom: 0px;
+	font-size: 0.8rem;
+}
+
+.chat__receive {
+	position: relative;
+	max-width: 60%;
+	background-color: #fafafa;
+	margin-bottom: 10px;
+	margin-right: auto;
+}
+
+.chat__send {
+	position: relative;
+	max-width: 60%;
+	background-color: #dcf7c5;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+.chat__receive--left:after {
+	content: " ";
+	position: absolute;
+	left: -20px;
+	right: auto;
+	top: 0px;
+	border: 22px solid;
+	border-color: #fafafa transparent transparent transparent;
+}
+
+.chat__receive--right:after {
+	content: " ";
+	position: absolute;
+	right: -20px;
+	left: auto;
+	top: 0px;
+	border: 22px solid;
+	border-color: #dcf7c5 transparent transparent transparent;
+}
+
+.chat__footer {
+	height: 80px;
+	background-color: #fafafa;
+}
+
+.chat__footer img {
+	display: flex;
+}
+
+.chat__bar {
+	display: flex;
+	align-items: center;
+	padding: 10px 15px;
+}
+
+.chat__add {
+	margin-right: 10px;
+}
+
+.chat__input {
+	background-color: #fff;
+	width: 82%;
+	border: 1px #8e8e93 solid;
+	border-radius: 20rem;
+	margin-right: 1.5rem;
+}
+
+.chat__sticker {
+	margin-right: 5px;
+	margin-left: auto;
+	padding: 5px;
+}
+
+.chat__camera {
+	margin-right: 1.5rem;
+}
+
+.chat__line {
+	background-color: #000;
+	height: 5px;
+	width: 135px;
+	margin: 10px auto;
+}
+
+.chat__pagination {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.chat__pagination-bullet {
+	display: inline-block;
+	padding: .5rem;
+	border-radius: 30rem;
+	background-color: #666;
+	cursor: pointer;
+}
+
+.chat__pagination-bullet--active {
+	background-color: #dcf7c5;
+}
+
+.audio {
+	width: 20rem;
+	display: flex;
+	align-items: center;
+}
+
+.audio:not(.audio--active) .audio__speedToggle {
+	display: none;
+}
+
+.audio--active .audio__playToggle::before, .audio--active .audio__playToggle::after {
+	transform: translateX(0);
+}
+
+.audio--active .audio__playToggle::before {
+	clip-path: polygon(5% 0%, 35% 0%, 35% 100%, 5% 100%);
+}
+
+.audio--active .audio__playToggle::after {
+	clip-path: polygon(65% 0%, 95% 0%, 95% 100%, 65% 100%);
+}
+
+.audio__playToggle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	appearance: none;
+	background: transparent;
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.audio__playToggle::before, .audio__playToggle::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-color: #666;
+	transition: 0.1s ease-in-out;
+	transition-property: clip-path, transform;
+	transform: translateX(2px);
+}
+
+.audio__playToggle::before {
+	clip-path: polygon(50% 25%, 100% 50%, 100% 50%, 50% 75%);
+}
+
+.audio__playToggle::after {
+	clip-path: polygon(0% 0%, 50% 25%, 50% 75%, 0% 100%);
+}
+
+.audio__wave {
+	flex-grow: 1;
+	margin: 0 8px;
+	cursor: pointer;
+}
+
+.audio__info {
+	display: flex;
+	flex-direction: column;
+}
+
+.audio__time {
+	color: #999;
+	font-size: 14px;
+}
+
+.audio__speedToggle {
+	appearance: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 18px;
+	border-radius: 4px;
+	border: none;
+	background: #e4e4e4;
+	margin-top: 4px;
+	font-size: 12px;
+	color: #888888;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+	transition-property: background-color, color;
+}
+
+.audio__speedToggle:hover, .audio__speedToggle:focus {
+	background-color: #dddddd;
+}
+
+.audio__speedToggle:active {
+	background-color: #d0d0d0;
+	color: #777777;
+}
+
+/*# sourceMappingURL=chat.css.map */

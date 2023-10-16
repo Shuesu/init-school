@@ -1,0 +1,19 @@
+:root {
+	--theme: #ff1515;
+	--theme-dark: #fb0000;
+	--white: #fff;
+	--black: #1a1a1a;
+	--gray: rgba(26, 26, 26, 0.7);
+	--logo-height: 5rem;
+	--admin-bar: 0px;
+	--fz: 1.2rem;
+	--small: 1rem;
+	--large: 1.5rem;
+	--field: 3rem;
+	--field-padding: 0 calc(var(--field) / 2);
+	--admin-bar: 0px;
+	--header-main: 5rem;
+	--padding: 2.4rem;
+}
+
+/*# sourceMappingURL=variables.css.map */

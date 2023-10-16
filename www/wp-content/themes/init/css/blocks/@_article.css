@@ -1,0 +1,378 @@
+@charset "UTF-8";
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+	margin-top: 1em;
+}
+
+.article:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup) {
+	margin-bottom: 2rem;
+}
+
+.article:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bm {
+	margin-bottom: 3rem;
+}
+
+.article:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn) {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 2rem;
+}
+
+.article:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).bm {
+	padding-bottom: 3rem;
+}
+
+.article:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).small-pb {
+	padding-bottom: 1rem;
+}
+
+.article:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).mt {
+	margin-top: auto;
+}
+
+.article.all-mb > *:not(.mb0) {
+	margin-bottom: 2rem;
+}
+
+.article.all-mb > *:not(.mb0).bm {
+	margin-bottom: 3rem;
+}
+
+.article.all-mb > *:not(.mb0).bordered {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 2rem;
+}
+
+.article.all-mb > *:not(.mb0).bordered.bm {
+	padding-bottom: 3rem;
+}
+
+.article.half {
+	width: var(--article-half);
+}
+
+.article.center {
+	width: var(--article-half);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.article-mc:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup) {
+	margin-bottom: 0.3rem;
+}
+
+.article-mc:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bm {
+	margin-bottom: 0.6rem;
+}
+
+.article-mc:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn) {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 0.3rem;
+}
+
+.article-mc:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).bm {
+	padding-bottom: 0.6rem;
+}
+
+.article-mc:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).small-pb {
+	padding-bottom: 0.15rem;
+}
+
+.article-mc:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).mt {
+	margin-top: auto;
+}
+
+.article-mc.all-mb > *:not(.mb0) {
+	margin-bottom: 0.3rem;
+}
+
+.article-mc.all-mb > *:not(.mb0).bm {
+	margin-bottom: 0.6rem;
+}
+
+.article-mc.all-mb > *:not(.mb0).bordered {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 0.3rem;
+}
+
+.article-mc.all-mb > *:not(.mb0).bordered.bm {
+	padding-bottom: 0.6rem;
+}
+
+.article-mc.half {
+	width: var(--article-half);
+}
+
+.article-mc.center {
+	width: var(--article-half);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.article-sm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup) {
+	margin-bottom: 1rem;
+}
+
+.article-sm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bm {
+	margin-bottom: 2rem;
+}
+
+.article-sm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn) {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 1rem;
+}
+
+.article-sm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).bm {
+	padding-bottom: 2rem;
+}
+
+.article-sm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).small-pb {
+	padding-bottom: 0.5rem;
+}
+
+.article-sm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).mt {
+	margin-top: auto;
+}
+
+.article-sm.all-mb > *:not(.mb0) {
+	margin-bottom: 1rem;
+}
+
+.article-sm.all-mb > *:not(.mb0).bm {
+	margin-bottom: 2rem;
+}
+
+.article-sm.all-mb > *:not(.mb0).bordered {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 1rem;
+}
+
+.article-sm.all-mb > *:not(.mb0).bordered.bm {
+	padding-bottom: 2rem;
+}
+
+.article-sm.half {
+	width: var(--article-half);
+}
+
+.article-sm.center {
+	width: var(--article-half);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.article-nm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup) {
+	margin-bottom: 1.5rem;
+}
+
+.article-nm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bm {
+	margin-bottom: 2.5rem;
+}
+
+.article-nm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn) {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 1.5rem;
+}
+
+.article-nm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).bm {
+	padding-bottom: 2.5rem;
+}
+
+.article-nm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).small-pb {
+	padding-bottom: 0.75rem;
+}
+
+.article-nm:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).mt {
+	margin-top: auto;
+}
+
+.article-nm.all-mb > *:not(.mb0) {
+	margin-bottom: 1.5rem;
+}
+
+.article-nm.all-mb > *:not(.mb0).bm {
+	margin-bottom: 2.5rem;
+}
+
+.article-nm.all-mb > *:not(.mb0).bordered {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 1.5rem;
+}
+
+.article-nm.all-mb > *:not(.mb0).bordered.bm {
+	padding-bottom: 2.5rem;
+}
+
+.article-nm.half {
+	width: var(--article-half);
+}
+
+.article-nm.center {
+	width: var(--article-half);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.article-md:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup) {
+	margin-bottom: 3rem;
+}
+
+.article-md:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bm {
+	margin-bottom: 4rem;
+}
+
+.article-md:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn) {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 3rem;
+}
+
+.article-md:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).bm {
+	padding-bottom: 4rem;
+}
+
+.article-md:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).small-pb {
+	padding-bottom: 1.5rem;
+}
+
+.article-md:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).mt {
+	margin-top: auto;
+}
+
+.article-md.all-mb > *:not(.mb0) {
+	margin-bottom: 3rem;
+}
+
+.article-md.all-mb > *:not(.mb0).bm {
+	margin-bottom: 4rem;
+}
+
+.article-md.all-mb > *:not(.mb0).bordered {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 3rem;
+}
+
+.article-md.all-mb > *:not(.mb0).bordered.bm {
+	padding-bottom: 4rem;
+}
+
+.article-md.half {
+	width: var(--article-half);
+}
+
+.article-md.center {
+	width: var(--article-half);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.article-bg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup) {
+	margin-bottom: 4rem;
+}
+
+.article-bg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bm {
+	margin-bottom: 5rem;
+}
+
+.article-bg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn) {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 4rem;
+}
+
+.article-bg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).bm {
+	padding-bottom: 5rem;
+}
+
+.article-bg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).small-pb {
+	padding-bottom: 2rem;
+}
+
+.article-bg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).mt {
+	margin-top: auto;
+}
+
+.article-bg.all-mb > *:not(.mb0) {
+	margin-bottom: 4rem;
+}
+
+.article-bg.all-mb > *:not(.mb0).bm {
+	margin-bottom: 5rem;
+}
+
+.article-bg.all-mb > *:not(.mb0).bordered {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 4rem;
+}
+
+.article-bg.all-mb > *:not(.mb0).bordered.bm {
+	padding-bottom: 5rem;
+}
+
+.article-bg.half {
+	width: var(--article-half);
+}
+
+.article-bg.center {
+	width: var(--article-half);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.article-lg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup) {
+	margin-bottom: 6rem;
+}
+
+.article-lg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bm {
+	margin-bottom: 7rem;
+}
+
+.article-lg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn) {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 6rem;
+}
+
+.article-lg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).bm {
+	padding-bottom: 7rem;
+}
+
+.article-lg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).bordered:not(.btn).small-pb {
+	padding-bottom: 3rem;
+}
+
+.article-lg:not(.all-mb) > *:not(:last-child):not(.mb0):not(.dashboard-sidebar-popup).mt {
+	margin-top: auto;
+}
+
+.article-lg.all-mb > *:not(.mb0) {
+	margin-bottom: 6rem;
+}
+
+.article-lg.all-mb > *:not(.mb0).bm {
+	margin-bottom: 7rem;
+}
+
+.article-lg.all-mb > *:not(.mb0).bordered {
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 6rem;
+}
+
+.article-lg.all-mb > *:not(.mb0).bordered.bm {
+	padding-bottom: 7rem;
+}
+
+.article-lg.half {
+	width: var(--article-half);
+}
+
+.article-lg.center {
+	width: var(--article-half);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/*# sourceMappingURL=@_article.css.map */

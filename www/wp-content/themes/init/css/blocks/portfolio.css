@@ -1,0 +1,30 @@
+.portfolio {
+	padding: 9rem 0;
+}
+
+.portfolio__middle {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+
+.portfolio__buttons {
+	display: flex;
+	align-items: end;
+}
+
+.portfolio__link {
+	color: #000;
+}
+
+@media (max-width: 767.98px) {
+	.portfolio {
+		margin-top: 3rem;
+	}
+	.portfolio__middle {
+		flex-direction: column;
+		gap: 4rem;
+	}
+}
+
+/*# sourceMappingURL=portfolio.css.map */

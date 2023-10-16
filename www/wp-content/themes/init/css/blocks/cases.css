@@ -1,0 +1,35 @@
+.cases__wrapper {
+	display: flex;
+}
+
+.cases__item {
+	display: block;
+}
+
+.cases__image {
+	object-fit: fill;
+	margin-bottom: 3rem;
+	height: auto;
+}
+
+.cases__headline {
+	margin-bottom: 1rem;
+}
+
+.cases__info {
+	font-size: var(--small);
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+	.cases__image {
+		width: 17rem;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.cases__image {
+		width: 67rem;
+	}
+}
+
+/*# sourceMappingURL=cases.css.map */

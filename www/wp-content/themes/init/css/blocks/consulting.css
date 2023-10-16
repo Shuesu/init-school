@@ -1,0 +1,31 @@
+.consulting__info {
+	font-size: var(--small);
+	color: var(--grey);
+}
+
+.consulting__main {
+	display: flex;
+	gap: 1rem;
+}
+
+.consulting__button {
+	background-color: var(--theme);
+	padding: 2rem;
+	color: var(--white);
+}
+
+.consulting__btn {
+	background-color: var(--green);
+	vertical-align: middle;
+	padding: 2rem 1.5rem;
+}
+
+.consulting__input {
+	display: grid;
+	padding: 2rem;
+	width: 20rem;
+	font-size: 1rem;
+	background-color: var(--light-grey);
+}
+
+/*# sourceMappingURL=consulting.css.map */

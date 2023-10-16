@@ -1,0 +1,45 @@
+/*!
+Theme Name: init
+Theme URI: https://init.kz/
+Author: init.kz
+Author URI: https://init.kz/
+Description: Description
+Version: 1.0.0
+Text Domain: init
+*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input,
+button{
+    border: 0;
+    outline: none;
+    height: var(--field);
+    padding: var(--field-padding);
+    background-color: transparent;
+
+}
+
+button,
+input[type="submit"],
+input[type="button"]{
+    background-color: transparent;
+    color: var(--theme-text);
+    cursor: pointer;
+}

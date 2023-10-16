@@ -1,0 +1,117 @@
+.bio {
+	background-image: url("/wp-content/themes/init/img/bio-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-color: #143b4f;
+	color: #fff;
+}
+
+.bio__wrapper {
+	padding: 9rem 0;
+	position: relative;
+	z-index: 2;
+}
+
+.bio__mask {
+	background: #020024;
+	background: linear-gradient(0deg, #020024 0%, rgba(0, 0, 0, 0.899597) 15%, rgba(0, 0, 0, 0.252539) 100%, white 100%);
+}
+
+.bio__title {
+	margin-bottom: 5rem;
+}
+
+.bio__headline {
+	margin-bottom: 5rem;
+}
+
+.bio__photo {
+	position: relative;
+	height: 57rem;
+	margin-bottom: 5rem;
+}
+
+.bio__image {
+	position: absolute;
+	display: flex;
+	max-width: 100%;
+	height: auto;
+}
+
+.bio__image:first-child {
+	top: 0;
+	left: 0;
+	width: 45%;
+}
+
+.bio__image:last-child {
+	bottom: 0;
+	right: 0;
+	width: 60%;
+}
+
+.bio__content {
+	display: flex;
+	gap: 2rem;
+}
+
+.bio__info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.bio__info:first-child {
+	width: 60%;
+}
+
+.bio__top {
+	font-size: var(--large);
+}
+
+.bio__bottom {
+	line-height: 2.3rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+	.bio__image:first-child {
+		width: 30rem;
+	}
+	.bio__image:last-child {
+		width: 40.5rem;
+	}
+	.bio__info {
+		width: 33.8rem;
+	}
+	.bio__photo {
+		height: 46rem;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.bio__headline {
+		width: 100%;
+	}
+	.bio__title {
+		font-size: 2rem;
+	}
+	.bio__image:first-child {
+		width: 28.8rem;
+	}
+	.bio__image:last-child {
+		width: 34rem;
+	}
+	.bio__photo {
+		height: 41rem;
+	}
+	.bio__content {
+		flex-direction: column;
+	}
+	.bio__info {
+		width: 100%;
+	}
+}
+
+/*# sourceMappingURL=bio.css.map */
